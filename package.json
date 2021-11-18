@@ -1,0 +1,22 @@
+{
+  "name": "webpack-course",
+  "version": "1.0.0",
+  "description": "webpac course",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [
+    "js",
+    "webpack"
+  ],
+  "author": "bugaiov <bugaiov@gmail>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
